@@ -21,3 +21,6 @@
 | 1 | ĐỖ PHI SƠN | 20521839 | Nhóm trưởng | 
 | 2 | TRẦN CHU HÙNG SƠN| 20521849 | Thành viên |
 ## Libelium Smart Agriculture IoT Vertical Kit(V.5)
+Reference material
+https://www.libelium.com/iot-solutions/smart-agriculture/
+https://development.libelium.com/plug-and-sense-technical-guide/
