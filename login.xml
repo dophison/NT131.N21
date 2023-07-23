@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="100dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/scrimp_logo"
+            android:layout_gravity="center_horizontal"
+            />
+    </androidx.cardview.widget.CardView>
+    <EditText
+        android:id="@+id/edtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="70dp"
+        android:hint=" Nhập số điện thoại của bạn"
+        android:drawableLeft="@drawable/phone_icon"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Đăng nhập"
+        android:textColor="#fff"
+        android:background="@drawable/btn_bg"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|bottom"
+        android:layout_marginBottom="5dp"
+        android:text="Nhóm 15"
+        android:textSize="22sp"/>
+
+</LinearLayout>
